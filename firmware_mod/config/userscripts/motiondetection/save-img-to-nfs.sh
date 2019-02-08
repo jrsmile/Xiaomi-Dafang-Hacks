@@ -6,5 +6,5 @@ if [ "$1" == "on" ]; then
     source /system/sdcard/scripts/common_functions.sh
 
     # Fetch Image from Camera and Save it on NFS Share
-    /system/sdcard/bin/getimage > /system/media/nfs/$(busybox hostname)/motion.jpg
+    /system/sdcard/bin/getimage > /system/media/nas/$(busybox hostname)/motion.jpg
 fi
