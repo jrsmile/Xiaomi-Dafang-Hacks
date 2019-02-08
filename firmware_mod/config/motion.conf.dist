@@ -22,10 +22,10 @@ publish_mqtt_message=false
 # Send the actual image via mqtt
 publish_mqtt_snapshot=false
 # Save the image locally
-save_snapshot=false
+save_snapshot=true
 send_email=false
 send_telegram=false
-save_dir=/system/sdcard/motion/stills
+save_dir=/system/media/nas/$(busybox hostname)/stills
 save_file_date_pattern="+%d-%m-%Y_%H.%M.%S"
 
 # Configure FTP snapshots and videos
