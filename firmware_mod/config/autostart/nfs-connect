@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 mkdir /system/media/nas
 mount -o nolock -t nfs 192.168.178.25:/recordings /system/media/nas
